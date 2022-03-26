@@ -1,0 +1,129 @@
+header { 
+    background: #BBBBBB;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    /*ideal*/
+    margin: 0 auto;
+    /*0 para o topo e baixo, e calcular automaticamente esses 940px para a esquerda e direita*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+nav a:active {
+    color: #10661b;
+}
+
+.produtos {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+   display: inline-block;
+   text-align: center;
+   width: 30%;
+   vertical-align: top;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   border: 2px solid #000000;
+   border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li h2:hover {
+    font-size: 40px;
+}
+
+.produtos li:active {
+    border-color: #10661b;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    /*cima 10px, esquerda e direita 0*/
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg"); 
+    padding: 40px 0;
+}
+
+.coopyright {
+    color:white;
+    font-size: 13px;
+    margin: 3px 0 0;
+    font-weight: bold;
+    width: 3px;
+}
+
+
+/*nav li (conteúdo): o que está um do lado do outro, espaço entre os itens*/
+
+/*nav a (conteúdo): link, o que está dentro do item*/
+
+/*text-decoration: none = tirar o sublinhado do texto*/
+
+/*font-weight: bold = enaltecer o tamanho da fonte, seu peso*/
+
+/*text-transform: uppercase = forma correta de colocar o texto em maiúsculo*/
+
+/*https://cursos.alura.com.br/forum/topico-duvida-sobre-margin-51676
+Explicação de como funciona "Margin".*/
+
+/*No display inline, todos os elementos preenchem uma única linha, por isso ficam alinhados, no caso do block, cada elemento da lista ocupa uma linha, por isso ficam um abaixo do outro. Comparado com inline, a principal diferença é que display: inline-block permite definir uma largura e altura no elemento. Além disso, com display: inline-block, as margens / preenchimentos superior e inferior são respeitados, mas com display: inline não são.*/
+
+/*vertical-align: alinhar a altura do texto, cima-baixo*/
+
+/*margin: espaçamento externo*/
+/*padding: espaçamento interno*/
+
+/*box-sizing: border-box; comando para o navegador ajustar se o espaçamento não estiver como desejamos. No exemplo
+que foi visto, widght 30% acabou ocupando o espaço mais que desejado, ao adicionar o padding de 30px(cima-baixo) e 20px(esquerda e direita)*/
+
+/*"hover", mudar a cor, tamanho, fonte, etc. do link-conteúdo em geral quando se passa o mouse por cima*/
+
+/*"active", quando o usuário clica na área, então ela muda de cor*/
+
+/*background: url(""); imagem de fundo*/
